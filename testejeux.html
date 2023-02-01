@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jeux de devinet</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="testejeux.css">
+</head>
+<body>
+	<script type="text/javascript" src="testejeux.js"></script>
+	<table bgcolor="maroon">
+	<form>
+		<tr>
+			<td>
+		<font color="deepskyblue">
+		<h1>Jeu Devinette</h1>
+		<label>Choisir</label>
+		<input type="number" name="choisir" id="nbre_saisie"><br>
+		<center><button width="50px" id="play" onclick="tester()">Jouer</button></center><br>
+		<textarea></textarea>
+	</font>
+	</form>
+	</td>
+	</tr>
+	</table>
+		<script type="text/javascript" src="testejeux.js">
+		function tester(){
+            var nbre_saisie=document.getElemnentByid("nbre_saisie")
+			console.log(nbre_saisie)
+			var play=document.getElemnentByid("play")
+		}
+		</script>
+</body>
+</html>
